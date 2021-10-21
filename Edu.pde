@@ -1,6 +1,8 @@
-void Edu (){
- //ojos//
-  point(m*3, m*3);
+void Edu (float posx, float posy){
+  push();
+  translate(posx, posy);
+    //ojos//
+    point(m*3, m*3);
   point(m*5, m*3);
   //nariz//
   line(m*4, m*3, m*4, m*4);
@@ -21,5 +23,6 @@ void Edu (){
   line(m*3, m*2, m*4, m*2);
   line(m*2, m*2, m*4, m*2);
   //cejas//
-   line(m*3, m*2, m*4, m*2);
+  line(m*3, m*2, m*4, m*2);
+  pop();
 }
